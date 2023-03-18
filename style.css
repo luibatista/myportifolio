@@ -398,3 +398,40 @@ section.projetos-destaque .container{
 	margin-top:10px;
 
 }
+
+@media screen and (max-width: 768px){
+    .vitrine{
+        width: 100%;
+    }
+
+    .info-site{
+		width: 100%;
+	}
+
+    
+section.projetos-destaque .line-titulo h2{
+	font-size: 23px;
+}
+
+section.site-destaque .container{
+	max-width: 1000px;
+	padding:40px 0;
+	text-align: center;
+}
+
+.vitrine{
+	display: inline-block;
+	float: none;
+	text-align: center;
+	margin-top:20px;
+}
+
+.vitrine a{
+	display: inline-block;
+}
+
+.btn1{
+    width: 200px;
+}
+
+}
