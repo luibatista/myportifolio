@@ -1,0 +1,400 @@
+*{
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+.center{
+    display: flex;
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.parent{
+    display: flex;
+}
+
+.sidebar{
+    width           : 20%;
+    height          : 100%;
+    position        : fixed;
+    background-color: #512679;
+}
+
+.sidebar-pos{
+    position : absolute;
+    top      : 50%;
+    transform: translateY(-50%);
+}
+
+.img-sidebar{text-align: center;}
+
+.img-sidebar img{
+    width        : 80%;
+    border       : 8px solid #62318e;
+    border-radius: 50%;
+}
+
+.menu{
+    margin    : 20px 0;
+    text-align: center;
+}
+
+.menu a{
+    color          : white;
+    opacity        : 0.4;
+    font-size      : 24px;
+    display        : block;
+    margin-bottom  : 20px;
+    text-decoration: none;
+}
+
+.menu a.selected{
+    opacity: 1;
+}
+
+.menu a.not:hover{
+    color           : white;
+    transition-delay: 0.1s;
+    opacity         : 0.7;
+    font-size       : 27px;
+    margin-bottom   : 20px;
+    text-decoration : none;
+}
+
+a.not{
+    color          : white;
+    opacity        : 0.4;
+    font-size      : 22px;
+    display        : block;
+    margin-bottom  : 20px;
+    text-decoration: none;
+}
+
+.content{
+    position  : absolute;
+    left      : 20%;
+    width     : 80%;
+    height    : 100%;
+    overflow-y: auto;
+    padding   : 0 3%;
+}
+
+section.descricao{
+    position : relative;
+    top      : 50%;
+    transform: translateY(-50%);
+}
+
+section.descricao h2{
+    color    : #343a40;
+    font-size: 46px;
+}
+
+section.descricao h2 > span,
+section.descricao h3 > span
+{
+    color: #62318e;
+}
+
+section.descricao h3{
+    margin   : 15px 0;
+    color    : #6c757d;
+    font-size: 26px;
+}
+
+section.descricao p{
+    color     : #6c757d;
+    font-size : 20px;
+    margin-top: 40px;
+}
+
+.icons-social{
+    margin-top: 20px;
+}
+
+.icons-social a{
+    text-decoration : none;
+    color           : white;
+    background-color: gray;
+    width           : 40px;
+    height          : 40px;
+    border-radius   : 20px;
+    display         : inline-block;
+    margin          : 0 10px;
+    text-align      : center;
+}
+
+.icons-social i{
+    line-height: 40px;
+}
+.expli{
+    margin-left: 15px;
+    width      : 100%;
+    font-size  : 20px;
+}
+.cer{
+    width  : 37%;
+    height : 36%;
+    padding: 3% 3% 1% 3%;
+}
+
+.corr{
+    width           : 100%;
+    height          : 100px;
+    background-color: rgb(191, 138, 245);
+}
+
+
+.corr h1{
+    margin-left  : 27%;
+    width        : 70%;
+    margin-top   : 18px;
+    margin-bottom: 20px;
+    text-align   : center;
+    font-size    : 45px;
+}
+
+.quad{
+    border      : solid 3px 3px 3px 3px;
+    border-color: #62318e;
+}
+
+.conti{
+    max-width : 100px;
+    max-height: 80px;
+    width     : auto;
+    height    : auto;
+}
+
+
+section.contato{
+	padding:80px 2% 0 2%;
+}
+
+section.contato form{
+	max-width: 600px;
+	margin:30px auto;
+}
+
+section.contato .input-wraper{
+	float: left;
+	padding:10px;
+	margin-top:7px;
+}
+
+section.contato input[type=text]{
+	width: 100%;
+	border: 1px solid #62318e;
+	height: 60px;
+	font-size: 16px;
+	line-height: 40px;
+	padding-left: 15px;
+}
+
+section.contato textarea{
+	font-size: 16px;
+	width: 100%;
+	border:1px solid #62318e;
+	height: 140px;
+	padding:8px;
+	resize: none;
+}
+
+section.contato form .input-wraper:nth-of-type(5){
+	text-align: center;
+}
+
+section.contato input[type=submit]{
+	border-right: 0;
+	border-left: 0;
+	border-top: 0;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.btn1{
+	text-align: center;
+	display: block;
+	line-height: 40px;
+	background-color: #62318e;
+	text-decoration: none;
+	border-bottom: 5px solid #3c1c58;
+	color: white;
+	font-size: 16px;
+	font-style: italic;
+	width: 150px;
+}
+
+
+.w100{
+	width: 100%;
+}
+
+.w50{
+	width: 50%;
+}
+
+ .contato .center div h1{
+    display: flex;
+    background-color: #62318e;
+    color: white;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px 15px;
+    
+}
+
+.line-titulo{
+	max-width: 1400px;
+	margin:0 auto;
+	position: relative;
+	text-align: center;
+}
+
+.ln1{
+	position: absolute;
+	height: 2px;
+	width: 100%;
+	top:20px;
+	background: #62318e;
+}
+
+
+.line-titulo h2{
+	position: relative;
+	background: white;
+	display: inline-block;
+	text-align: center;
+	font-size: 27px;
+	padding:0 20px;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+
+
+footer{
+    display: inline-block;
+	margin-top:20px;
+	padding:40px 2%;
+    width: 100%;
+    text-align: center;
+	background-color: #62318e;
+}
+
+footer nav{
+	float: left;
+}
+
+footer nav ul{
+	list-style-type: none;
+}
+
+footer nav ul li{
+	float: left;
+	font-style: italic;
+	padding:0 35px;
+	font-size: 19px;
+}
+
+footer nav ul a{
+	color: white;
+	text-decoration: none;
+}
+
+footer p{
+	float: right;
+	color: white;
+	font-size: 19px;
+	font-style: italic;
+}
+
+
+footer a.selected{
+    opacity: 1;
+}
+
+footer a.not:hover{
+    color           : white;
+    transition-delay: 0.2s;
+    opacity         : 0.7;
+    font-size       : 24px;
+    margin-bottom   : 16px;
+    text-decoration : none;
+}
+
+footer a.not{
+    color          : white;
+    opacity        : 0.4;
+    font-size      : 22px;
+    display        : block;
+    margin-bottom  : 20px;
+    text-decoration: none;
+}
+
+
+section.projetos-destaque{
+	padding:90px 2%;
+}
+
+section.projetos-destaque .container{
+	padding:40px 0;
+}
+
+
+.vitrine{
+	float: left;
+	width: 33%;
+	text-align: left;
+	
+}
+
+.vitrine .site-img{
+	width: 100%;
+	padding-top: 100%;
+	border:8px solid #ffffff;
+	background-size: 100% 100%;
+}
+
+.vitrine h2{
+	padding-left: 8px;
+	color: black;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.vitrine p{
+	padding-top: 8px;
+	padding-left: 8px;
+	color: #353535;
+	font-size: 15px;
+	font-style: italic;
+}
+
+
+.btn1{
+	text-align: center;
+	display: block;
+	line-height: 40px;
+	background-color:#62318e;
+	text-decoration: none;
+	border-bottom: 5px solid #351650;
+	color: white;
+	font-size: 16px;
+	font-style: italic;
+	width: 150px;
+}
+
+.vitrine a{
+	margin-left: 8px;
+	margin-top:10px;
+
+}
