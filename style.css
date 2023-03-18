@@ -434,4 +434,21 @@ section.site-destaque .container{
     width: 200px;
 }
 
+footer nav ul li{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer p{
+    display: inline-block;
+    width: 100%;
+	text-align: center;
+    margin-top: 30px;
+	color: white;
+	font-size: 19px;
+	font-style: italic;
+}
+
 }
