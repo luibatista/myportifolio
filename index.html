@@ -1,17 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Checkbox Example</title>
+	<title>Question for Carla</title>
+	<style>
+		
+		
+		.question {
+			text-align: center;
+			margin-top: 50px;
+			font-size: 24px;
+			font-weight: bold;
+		}
+		.answers {
+			display: flex;
+			justify-content: center;
+			margin-top: 20px;
+		}
+		.answer-label {
+			display: flex;
+			align-items: center;
+			margin-right: 20px;
+			font-size: 18px;
+			font-weight: bold;
+		}
+		.answer-checkbox {
+			margin-right: 5px;
+		}
+
+        #no:hover{
+            display: none;
+        }
+	</style>
 </head>
 <body>
-    <h1>QUER NAMORAR COMIGO?</h1>
-	<label>
-		<input type="checkbox" name="option1" value="yes">
-		Yes
-	</label>
-	<label>
-		<input type="checkbox" name="option2" value="no">
-		No
-	</label>
+	<div class="question">Carla, você quer namorar comigo?</div>
+	<div class="answers">
+			<label class="answer-label">
+				<input type="radio" name="answer" value="yes" class="answer-checkbox">
+				Sim
+			</label>
+			<label class="answer-label" id="no">
+				<input type="radio" name="answer" value="no" class="answer-checkbox" >
+				Não
+			</label>
+	</div>
 </body>
 </html>
