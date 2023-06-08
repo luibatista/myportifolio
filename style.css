@@ -401,8 +401,8 @@ section.projetos-destaque .container{
 
 @media screen and (max-width: 768px){
 	
-	.sidebar-pos{
-        padding: 13%;
+    .sidebar-pos{
+        padding: 15px;
     }
 
 	
